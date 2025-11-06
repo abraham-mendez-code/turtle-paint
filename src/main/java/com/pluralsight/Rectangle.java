@@ -5,11 +5,11 @@ import java.lang.reflect.Field;
 
 public class Rectangle extends Shape {
 
-    int width;
-    int height;
+    double width;
+    double height;
 
     // constructor
-    public Rectangle (World world, double locationX, double locationY, int border, String color, int width, int height) {
+    public Rectangle (World world, double locationX, double locationY, int border, String color, double width, double height) {
 
         this.world = world;
         this.border = border;
